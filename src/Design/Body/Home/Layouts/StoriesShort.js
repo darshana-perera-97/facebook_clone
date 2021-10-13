@@ -8,7 +8,7 @@ export default function StoriesShort() {
     "https://images.unsplash.com/photo-1541963463532-d68292c34b19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80",
   ];
   return (
-    <div>
+    <div style={{padding:"0px 15px"}}>
       <p style={{ marginBottom: "2px", marginTop: "2px", color: "#2E6FEE" }}>
         Stories
       </p>
@@ -16,6 +16,7 @@ export default function StoriesShort() {
         {images.map((val, key) => {
           return (
             <img
+              id="images"
               src={val}
               height="120px"
               width="80px"

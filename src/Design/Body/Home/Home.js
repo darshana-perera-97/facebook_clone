@@ -4,6 +4,7 @@ import Profile from "./Layouts/Profile";
 import ImageSet from "./Layouts/ImageSet";
 import WriteComment from "./Layouts/WriteComment";
 import StoriesShort from "./Layouts/StoriesShort";
+import Post from "./Layouts/Post";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <Grid item xs={5}>
           <WriteComment />
           <StoriesShort />
+          <Post />
         </Grid>
         <Grid item xs={3}>
           s
