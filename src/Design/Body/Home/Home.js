@@ -2,6 +2,7 @@ import React from "react";
 import Grid from "@mui/material/Grid";
 import Profile from "./Layouts/Profile";
 import ImageSet from "./Layouts/ImageSet";
+import WriteComment from "./Layouts/WriteComment";
 
 export default function Home() {
   return (
@@ -19,7 +20,7 @@ export default function Home() {
           <ImageSet />
         </Grid>
         <Grid item xs={5}>
-          s
+          <WriteComment />
         </Grid>
         <Grid item xs={3}>
           s
