@@ -3,6 +3,7 @@ import Grid from "@mui/material/Grid";
 import Profile from "./Layouts/Profile";
 import ImageSet from "./Layouts/ImageSet";
 import WriteComment from "./Layouts/WriteComment";
+import StoriesShort from "./Layouts/StoriesShort";
 
 export default function Home() {
   return (
@@ -14,13 +15,14 @@ export default function Home() {
         padding: "8px",
       }}
     >
-      <Grid container spacing={2}>
+      <Grid container spacing={3}>
         <Grid item xs={3}>
           <Profile />
           <ImageSet />
         </Grid>
         <Grid item xs={5}>
           <WriteComment />
+          <StoriesShort />
         </Grid>
         <Grid item xs={3}>
           s
