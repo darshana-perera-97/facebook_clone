@@ -5,6 +5,8 @@ import ImageSet from "./Layouts/ImageSet";
 import WriteComment from "./Layouts/WriteComment";
 import StoriesShort from "./Layouts/StoriesShort";
 import Post from "./Layouts/Post";
+import Messanger from "./Layouts/Messanger";
+import Adds from "./Layouts/Adds";
 
 export default function Home() {
   return (
@@ -27,10 +29,10 @@ export default function Home() {
           <Post />
         </Grid>
         <Grid item xs={3}>
-          s
+          <Messanger />
         </Grid>
         <Grid item xs={1}>
-          s
+          <Adds />
         </Grid>
       </Grid>
     </div>

@@ -2,6 +2,7 @@ import React from "react";
 import Grid from "@mui/material/Grid";
 import Home from "./Home/Home";
 
+
 export default function Body() {
   return (
     <div>
@@ -13,7 +14,7 @@ export default function Body() {
           <Home />
         </Grid>
         <Grid item md={1} xl={1}>
-          <p></p>
+          
         </Grid>
       </Grid>
     </div>
